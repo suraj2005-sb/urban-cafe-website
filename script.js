@@ -1,5 +1,9 @@
-const button = document.querySelector("button");
+const form = document.querySelector("#contact form");
 
-button.addEventListener("click", function () {
-    alert("Welcome to Urban Cafe! ☕");
+form.addEventListener("submit", function(event) {
+    event.preventDefault();
+
+    alert("Thank you! Your message has been received. ☕");
+
+    form.reset();
 });

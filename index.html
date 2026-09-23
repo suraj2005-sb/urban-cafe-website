@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Urban Cafe</title>
+    <title>Urban Cafe | Fresh Coffee & Good Vibes</title>
+    <meta name="description" content="Urban Cafe - Fresh coffee, delicious food and good vibes.">
 
     <link rel="stylesheet" href="style.css">
 </head>
@@ -29,7 +30,9 @@
             <h2>Fresh Coffee. Fresh Moments.</h2>
             <p>Welcome to Urban Cafe — your perfect place for coffee, food and good vibes.</p>
 
-            <button>Explore Menu</button>
+            <button onclick="document.getElementById('menu').scrollIntoView({ behavior: 'smooth' })">
+    Explore Menu
+</button>
         </section>
 
         <section id="about">
@@ -44,26 +47,36 @@
             <h2>Our Menu</h2>
 
             <div>
-                <h3>Cappuccino</h3>
-                <p>₹150</p>
-            </div>
+    <img src="https://images.unsplash.com/photo-1572442388796-11668a67e53d" alt="Cappuccino">
+    <h3>Cappuccino</h3>
+    <p>₹150</p>
+</div>
 
             <div>
-                <h3>Cold Coffee</h3>
-                <p>₹180</p>
-            </div>
-
+    <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735" alt="Cold Coffee">
+    <h3>Cold Coffee</h3>
+    <p>₹180</p>
+</div>
             <div>
-                <h3>Veg Sandwich</h3>
-                <p>₹120</p>
-            </div>
+    <img src="https://images.unsplash.com/photo-1528735602780-2552fd46c7af" alt="Veg Sandwich">
+    <h3>Veg Sandwich</h3>
+    <p>₹120</p>
+</div>
         </section>
 
         <section id="contact">
-            <h2>Contact Us</h2>
-            <p>Phone: +91 98765 43210</p>
-            <p>Email: hello@urbancafe.com</p>
-        </section>
+    <h2>Contact Us</h2>
+
+    <form>
+        <input type="text" placeholder="Your Name">
+        <input type="email" placeholder="Your Email">
+        <textarea placeholder="Your Message"></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+
+    <p>Phone: +91 782299 0930</p>
+    <p>Email: hello@urbancafe.com</p>
+</section>
 
     </main>
 
